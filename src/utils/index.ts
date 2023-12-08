@@ -25,20 +25,20 @@ export const menuItems: MenuItem[] = [
 
 export const categories: Option[] = [
   {
-    value: "application",
-    label: "Application",
-  },
-  {
-    value: "data",
-    label: "Data",
-  },
-  {
-    value: "software",
-    label: "Software",
-  },
-  {
-    value: "tech",
+    value: "technology",
     label: "Technology",
+  },
+  {
+    value: "finance",
+    label: "Finance",
+  },
+  {
+    value: "crypto",
+    label: "Crypto",
+  },
+  {
+    value: "business",
+    label: "Business",
   },
   {
     value: "science",

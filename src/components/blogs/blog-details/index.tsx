@@ -49,7 +49,7 @@ export default function BlogDetailsHome({ blogData }: { blogData: Blog }) {
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  },);
 
   if (!blogData) return null;
 
