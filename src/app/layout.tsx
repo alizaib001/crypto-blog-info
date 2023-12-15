@@ -25,6 +25,7 @@ export default function RootLayout({
           <NextAuthProviders>
             <GlobalState>
               <Header/>
+            
               {children}
             </GlobalState>
           </NextAuthProviders>

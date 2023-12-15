@@ -34,7 +34,7 @@ export default function Header() {
   useEffect(()=> {
     setSearchResults([]) 
     setSearchQuery('')  
-  },[pathName])
+  },[pathName, setSearchQuery, setSearchResults])
 
   return (
     <div>
@@ -56,7 +56,7 @@ export default function Header() {
                     ${sticky ? "py-5 lg:py-2" : "py-8"}
                     `}
               >
-                NextBlog
+                BTC_Information
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
